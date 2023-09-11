@@ -1,8 +1,9 @@
--- Linksys
+-- Linksys / Belkin
 
 device('linksys-e8450-ubi', 'linksys_e8450-ubi', {
 	factory = false,
 	sysupgrade_ext = '.itb',
+	aliases = {'belkin-rt3200-ubi'},
 })
 
 

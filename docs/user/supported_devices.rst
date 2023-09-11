@@ -21,8 +21,8 @@ ath79-generic
 * AVM
 
   - FRITZ!WLAN Repeater 300E [#avmflash]_
-  - Fritz!WLAN Repeater 450E [#avmflash]_
-  - Fritz!Box 4020 [#avmflash]_
+  - FRITZ!WLAN Repeater 450E [#avmflash]_
+  - FRITZ!Box 4020 [#avmflash]_
 
 * Buffalo
 
@@ -47,7 +47,7 @@ ath79-generic
   - DIR-505 A2 [#lan_as_wan]_
   - DIR-825 B1
 
-* Enterasys
+* Enterasys (Extreme Networks)
 
   - WS-AP3705i
 
@@ -58,9 +58,9 @@ ath79-generic
 * GL.iNet
 
   - 6416A
-  - GL-AR150
-  - GL-AR300M-Lite
-  - GL-AR750
+  - GL-AR150 (White)
+  - GL-AR300M-Lite (Shadow series)
+  - GL-AR750 (Creta)
   - GL-USB150 (Microuter)
 
 * Joy-IT
@@ -105,9 +105,11 @@ ath79-generic
   - PA300
   - PA300E
 
-* Siemens
+* Siemens (Extreme Networks)
 
-  - WS-AP3610
+  - WS-AP3605 (HiPath Wireless AP3605) (i/e)
+  - WS-AP3610 (HiPath Wireless AP3610) (i/e)
+  - WS-AP3620 (HiPath Wireless AP3620) (i/e)
 
 * Sophos
 
@@ -145,16 +147,28 @@ ath79-generic
 
 * Ubiquiti
 
-  - UniFi AC Lite
-  - UniFi AC LR
-  - UniFi AC Mesh
-  - UniFi AC Mesh Pro
-  - UniFi AC Pro
-  - UniFi AP
-  - UniFi AP LR
-  - UniFi AP Outdoor+
-  - UniFi AP PRO
-  - UniFi Swiss Army Knife Ultra
+#  - LocoM2 (NanoStation Loco M2) (XW)
+#  - LocoM5 (NanoStation Loco M5) (XW)
+#  - NBE-5AC-19 (NanoBeam 5AC) (XC)
+#  - NBE-5AC-Gen2 (NanoBeam 5AC GEN2) (XC) [#ubiquiti_nanobeam]_
+#  - (NBE-M2-400 (NanoBeam M2) (XW))
+#  - NBE-M5-300 (NanoBeam M5) (XW)
+#  - NBE-M5-400 (NanoBeam M5) (XW)
+#  - NBE-M5-620 (NanoBeam M5) (XW)
+#  - NBE-M5-16 (NanoBeam M5) (XW)
+#  - NBE-M5-19 (NanoBeam M5) (XW)
+#  - NSM2 (NanoStation M2) (XW)
+#  - NSM5 (NanoStation M5) (XW)
+  - UAP-AC-LITE (UniFi AP AC Lite)
+  - UAP-AC-LR (UniFi AP AC LR)
+  - UAP-AC-M (UniFi AC Mesh)
+  - UAP-AC-M-PRO (UniFi AC Mesh Pro)
+  - UAP-AC-PRO (UniFi AP AC Pro)
+  - UAP-Outdoor+ (UniFi AP Outdoor+)
+  - UAP-PRO (UniFi AP Pro)
+  - UK-Ultra (UniFi Swiss Army Knife Ultra)
+  - UniFi AP / UAP (UniFi AP)
+  - UniFi AP / UAP-LR (UniFi AP Long Range/LR)
 
 ath79-mikrotik
 --------------
@@ -167,15 +181,15 @@ ath79-mikrotik
 ath79-nand
 ----------
 
-* Aerohive
+* Aerohive (Extreme Networks)
 
-  - HiveAP 121
+  - HiveAP 121 (AP121)
 
 * GL.iNet
 
-  - GL-AR300M
-  - GL-AR750S
-  - GL-XE300
+  - GL-AR300M (Shadow series)
+  - GL-AR750S (Slate)
+  - GL-XE300 (Puli)
 
 * NETGEAR
 
@@ -196,7 +210,6 @@ brcm2708-bcm2709
 
 * Raspberry Pi 2
 
-
 ipq40xx-generic
 ---------------
 
@@ -204,7 +217,7 @@ ipq40xx-generic
 
   - Jalapeno
 
-* Aruba
+* Aruba Networks (HP Enterprise)
 
   - AP-303
   - AP-303H
@@ -225,7 +238,7 @@ ipq40xx-generic
   - GL-AP1300
   - GL-B1300
 
-* Linksys
+* Linksys (Belkin)
 
   - EA6350 (v3)
 
@@ -253,9 +266,9 @@ ipq40xx-mikrotik
 
 * Mikrotik
 
-  - DISC Lite5 ac (RBDiscG-5acD)
-  - hAP ac2
-  - SXTsq 5 ac (RBSXTsqG-5acD)
+  - RBDiscG-5acD (DISC Lite5 ac)
+  - RBD52G-5HacD2HnD-TC (hAP ac2)
+  - RBSXTsqG-5acD (SXTsq 5 ac)
 
 ipq806x-generic
 ---------------
@@ -323,7 +336,11 @@ mediatek-filogic
 mediatek-mt7622
 ---------------
 
-* Linksys
+* Belkin
+
+  - RT3200
+
+* Linksys (Belkin)
 
   - E8450
 
@@ -338,7 +355,7 @@ mediatek-mt7622
 mpc85xx-p1010
 -------------
 
-* Enterasys
+* Enterasys (Extreme Networks)
 
   - WS-AP3715i
 
@@ -353,11 +370,11 @@ mpc85xx-p1010
 mpc85xx-p1020
 ---------------
 
-* Aerohive
+* Aerohive (Extreme Networks)
 
   - HiveAP 330
 
-* Enterasys
+* Enterasys (Extreme Networks)
 
   - WS-AP3710i
 
@@ -589,3 +606,9 @@ Footnotes
   that may not be bundled with the device itself.
   Such expansions are recommended for the config mode, but are not strictly necessary,
   as exposed serial ports may grant sufficient access as well.
+
+.. [#ubiquiti_nanobeam]
+  Ubiquiti sold two different variants of the NBE-5AC-Gen2. The earlier variant (XC)
+  came with one ethernet port and is supported. The newer variant (WA) comes with two
+  ethernet ports and likely won't receive support (ath10k requires atleast 128MiB of
+  RAM per radio for sufficient operation).
