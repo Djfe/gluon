@@ -38,7 +38,7 @@ device('gl.inet-gl-xe300', 'glinet_gl-xe300', {
 })
 
 
--- Netgear
+-- NETGEAR
 
 device('netgear-wndr3700-v4', 'netgear_wndr3700-v4', {
 	factory_ext = '.img',
@@ -57,7 +57,7 @@ device('zte-mf281', 'zte_mf281', {
 })
 
 
--- Zyxel
+-- ZYXEL
 
 device('zyxel-nbg6716', 'zyxel_nbg6716', {
 	packages = ATH10K_PACKAGES_QCA9880,
